@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A542EF002B99E84D007AB2B5 /* Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A542EEFF2B99E84D007AB2B5 /* Love Story.mp3 */; };
 		A5A03FA62B976D7E0033E041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FA52B976D7E0033E041 /* AppDelegate.swift */; };
 		A5A03FA82B976D7E0033E041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FA72B976D7E0033E041 /* SceneDelegate.swift */; };
 		A5A03FAA2B976D7E0033E041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FA92B976D7E0033E041 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		A5A03FBD2B976D800033E041 /* music_app__DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FBC2B976D800033E041 /* music_app__DemoTests.swift */; };
 		A5A03FC72B976D800033E041 /* music_app__DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FC62B976D800033E041 /* music_app__DemoUITests.swift */; };
 		A5A03FC92B976D800033E041 /* music_app__DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FC82B976D800033E041 /* music_app__DemoUITestsLaunchTests.swift */; };
+		A5A03FD62B976E490033E041 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A03FD52B976E490033E041 /* Song.swift */; };
+		A5A03FDC2B9774D20033E041 /* SPOTLIGHT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A03FDB2B9774D20033E041 /* SPOTLIGHT.mp3 */; };
+		A5A03FDE2B9776D90033E041 /* 洋蔥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A03FDD2B9776D80033E041 /* 洋蔥.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A542EEFF2B99E84D007AB2B5 /* Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love Story.mp3"; sourceTree = "<group>"; };
 		A5A03FA22B976D7E0033E041 /* music app  Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music app  Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A03FA52B976D7E0033E041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A03FA72B976D7E0033E041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		A5A03FC22B976D800033E041 /* music app  DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "music app  DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A03FC62B976D800033E041 /* music_app__DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_app__DemoUITests.swift; sourceTree = "<group>"; };
 		A5A03FC82B976D800033E041 /* music_app__DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_app__DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5A03FD52B976E490033E041 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		A5A03FDB2B9774D20033E041 /* SPOTLIGHT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SPOTLIGHT.mp3; sourceTree = "<group>"; };
+		A5A03FDD2B9776D80033E041 /* 洋蔥.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "洋蔥.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				A5A03FA52B976D7E0033E041 /* AppDelegate.swift */,
 				A5A03FA72B976D7E0033E041 /* SceneDelegate.swift */,
 				A5A03FA92B976D7E0033E041 /* ViewController.swift */,
+				A5A03FDB2B9774D20033E041 /* SPOTLIGHT.mp3 */,
+				A5A03FDD2B9776D80033E041 /* 洋蔥.mp3 */,
+				A542EEFF2B99E84D007AB2B5 /* Love Story.mp3 */,
+				A5A03FD52B976E490033E041 /* Song.swift */,
 				A5A03FAB2B976D7E0033E041 /* Main.storyboard */,
 				A5A03FAE2B976D800033E041 /* Assets.xcassets */,
 				A5A03FB02B976D800033E041 /* LaunchScreen.storyboard */,
@@ -231,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A03FDE2B9776D90033E041 /* 洋蔥.mp3 in Resources */,
+				A542EF002B99E84D007AB2B5 /* Love Story.mp3 in Resources */,
 				A5A03FB22B976D800033E041 /* LaunchScreen.storyboard in Resources */,
+				A5A03FDC2B9774D20033E041 /* SPOTLIGHT.mp3 in Resources */,
 				A5A03FAF2B976D800033E041 /* Assets.xcassets in Resources */,
 				A5A03FAD2B976D7E0033E041 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A03FD62B976E490033E041 /* Song.swift in Sources */,
 				A5A03FAA2B976D7E0033E041 /* ViewController.swift in Sources */,
 				A5A03FA62B976D7E0033E041 /* AppDelegate.swift in Sources */,
 				A5A03FA82B976D7E0033E041 /* SceneDelegate.swift in Sources */,
